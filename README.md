@@ -1,6 +1,7 @@
 # calculator
 
-Калькулятор и ничего лишнего
+Калькулятор и ничего лишнего.
+
 Ссылка - https://calculator-faikun.web.app/
 
 ## Project setup
