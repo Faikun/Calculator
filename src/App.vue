@@ -1,7 +1,7 @@
 <template>
   <div class="bg-gray-200 w-full min-h-screen pt-10">
-    <div class="flex flex-col w-1/3 bg-white justify-center m-auto rounded shadow-xl">
-      <h1 class="text-center mt-5 text-slate-600 text-2xl mb-10 font-bold">Калькулятор онлайн</h1>
+    <div class="flex flex-col w-2/3 laptop:w-1/3 bg-white justify-center m-auto rounded shadow-xl">
+      <h1 class="text-center mt-5 text-slate-600 text-lg tablet:text-2xl mb-10 font-bold">Калькулятор онлайн</h1>
 
       <div class="border rounded p-5 m-auto flex flex-col w-5/6 mb-5">
         <input class="text-right text-2xl font-medium mr-1" v-model="inputValue" @keydown.enter="calculateResult">
@@ -33,7 +33,7 @@
       </div>
     </div>
 
-    <div class="flex flex-col mt-5 ml-24">
+    <div class="flex flex-col mt-5 ml-6 small:ml-24">
       <h2 class="text-1xl font-medium mb-3">Обозначения</h2>
       <div class="flex flex-col justify-center">
         <div class="mb-3">
